@@ -5,8 +5,15 @@ ThisRepository is for the Run Analysis Project which is a part of the "Getting a
 
 This file describes how run_analysis.R script works.
 
-1. First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and copy all the 8 files required for the script into the working directory of R
-  * Make sure all the files and the run_analysis.R script are both in the present working directory.
+1. First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and copy all the 8 files required for the script into the working directory of R. Make sure all the below mentioned files and the run_analysis.R script are both in the present working directory.
+  1. subject_train.txt
+  2. subject_test.txt
+  3. activity_labels.txt
+  4. features.txt
+  5. X_train.txt
+  6. y_train.txt
+  7. X_test.txt
+  8. y_test.txt
 2. Second, use source("run_analysis.R") command in RStudio.
 3. Third, you will find two output files are generated in the current working directory:
   1. run_analysis_merged_output.txt (7.89 Mb): it contains the data from a data frame with 10299*68 dimension.
